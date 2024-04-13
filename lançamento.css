@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+.header{
+    background-color: rgba(0, 17, 255, 0.315);
+    padding: 5rem;
+}
+.section-iphone {
+display: flex;
+justify-content: center;
+}
+.section-iphone li {
+    text-decoration: none;
+    color: black;
+}
+.section-iphone li a:hover {
+    color:  rgb(167, 158, 158);
+    transition: 0.5s;
+
+}
+#header {
+    padding: 15rem;
+    background-color: antiquewhite;
+}
+#header h2 {
+    font-size: 50px;
+}
+#header a button {
+    padding: 0.5rem;
+    width: 15rem;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#header a button:hover {
+    background-color: rgb(151, 150, 148);
+    transition: 0.5s;
+    color: white;
+}
