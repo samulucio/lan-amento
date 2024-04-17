@@ -4,32 +4,30 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif
 
 }
-.header{
+header {
     background-color: rgba(0, 17, 255, 0.315);
-    padding: 5rem;
+    padding: 3rem;
 }
 
 
-#header {
-    padding: 15rem;
-    background-color: antiquewhite;
-}
-#header h2 {
-    font-size: 50px;
-}
-#header a button {
-    padding: 0.5rem;
-    width: 15rem;
-    margin-top: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-#header a button:hover {
-    background-color: rgb(151, 150, 148);
-    transition: 0.5s;
-    color: white;
+
+
+
+
+.list-header {
+    display: flex;
+    justify-content:center ;
+
 }
 
+.list-header li {
+    list-style: none;
+    margin-right: 10px;
+}
+.list-header li a {
+    text-decoration: none;
+
+}
 
 #section-iphone{
     background-image: url(imagens/Banner\ 01.jpg);
@@ -37,7 +35,35 @@
     background-position: center;
     background-size: cover;
 }
-#Section-iphone {
+#section-iphone {
     font-size: 20px;
     font-weight: bold;
+}
+
+#section-iphone button{
+    padding: 0.8rem;
+    margin: 5px;
+    width: 15rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#app { 
+    padding: 10rem;
+    text-align: center;
+    color: aqua;
+    background-image: url()
+}
+
+ footer 
+ {
+    background-color: rgb(51, 49, 49);
+    padding: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+ }
+text footer {
+    text-align: center;
 }
